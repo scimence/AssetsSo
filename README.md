@@ -27,7 +27,7 @@ AssetsSo （so库动态加载示例。从asset目录加载so库，安装时不�
  * 1、Google Play Store – Can’t install app (Error code: -504)
  * 2、is not page-aligned - will not be able to open it directly from apk
  * 3、Failure [INSTALL_FAILED_INVALID_APK: Failed to extract native libraries, res=-2] 
- * （此报错修改 aalication属性可以为 android:extractNativeLibs="true"编译的apk可正常运行，可从google play下载却无法安装，还是报第2个错误，
+ * （此报错修改 aplication属性可以为 android:extractNativeLibs="true"编译的apk可正常运行，可从google play下载却无法安装，还是报第2个错误，
  * 干脆修改为so动态加载，就不会报错了，也可正常安装、运行）
  * ｝
  * 
